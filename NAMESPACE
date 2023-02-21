@@ -1,0 +1,15 @@
+importFrom(graphics, plot,segments,abline,lines,text,persp)
+importFrom(grDevices,pdf,dev.off)
+importFrom(stats,qnorm,var,pacf,ts.plot,rnorm)
+import(locits)
+import(wavethresh)
+import(parallel)
+
+#exportPattern("^[[:alpha:]]+")
+export(AutoBestBW.Epan, lpacf.Epan, lpacf.plot, lpacf, tvar2sim)
+export(plot.lpacf, print.lpacf, summary.lpacf)
+
+S3method(plot,lpacf)
+S3method(print,lpacf)
+S3method(summary,lpacf)
+

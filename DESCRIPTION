@@ -1,0 +1,15 @@
+Package: lpacf
+Type: Package
+Title: Local Partial Autocorrelation and Forecasting Locally Stationary Wavelet Processes 
+Version: 1.5
+Date: 2022-02-20
+Authors@R: c(person("Rebecca", "Killick",role=c("aut","cre"),email="r.killick@lancs.ac.uk"),
+				person("Guy", "Nason", role="aut"),
+				person("Marina", "Knight", role="aut"),
+        person("Idris", "Eckley", role="ctb"),
+	person("Matt", "Nunes", role="aut"))
+Author: Rebecca Killick [aut], Guy Nason [aut], Marina Knight [aut], Matt Nunes [aut, cre], Idris Eckley [ctb]
+Maintainer: Rebecca Killick <r.killick@lancs.ac.uk>
+Description: Provides a method for computing the local partial autocorrelation function and forecasting locally stationary wavelet time series.
+Depends: R(>= 3.0), stats, locits, wavethresh, parallel
+License: GPL-2

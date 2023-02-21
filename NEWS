@@ -1,0 +1,51 @@
+Version 1.5
+===========
+* partitioned off forecasting functions for use in forecastLSW
+* changed dependencies accordingly
+* split vignettes for content in two packages accordingly
+* removed cardinham man file
+* removed sysdata.rda from R directory
+* added references to LPACF EJS paper in Rd files
+* added parallel import to NAMESPACE
+* changed references to forecast.lpacf to include [pkg] in Rd links
+* added AutoBestBW.Epan Rd file
+* added lpacf.Epan Rd file, added seed to example
+* changed NAMESPACE to not export Epanechnikov
+* maintainer changed to RK
+
+Version 1.4
+===========
+* Added lpacf.Epan from GPN
+* Fixed lpacf.Epan as the boundaries were calculated incorrectly.  The previously formulation resulted in some vectors having length lag.max-1 instead of lag.max.
+
+Version 1.3
+===========
+* Bugfix to forecast.lpacf to correct the fact that the B matrix was not being zeroed before each forecast horizon for forecast.type='recursive'.
+* Changed calculation of the lacv and lpacf used in the forecast.lpacf function to be attributed to the central point in the window rather than right most point as in previous versions.   !!!!! This changes ALL forecasts !!!!!!
+
+Version 1.2.1
+=============
+* Bugfix to reg.xyr to handle p=1 properly instead of erroring.
+
+Version 1.2
+===========
+* which.wavelet.best upgraded to make use of the go.back argument introduced in 1.1
+* Bugfix to plot.forecast.lpacf: removed extraneous print
+
+Version 1.1
+===========
+* Augmented the forecast.test function with a new argument called go.back. If this is zero then forecast.test behaves	as before. If it is a non-zero integer then forecast test is applied repeatedly to the time series but for successively earlier	end points. In all go.back shifts are used and the shift gets one time point earlier each time. The reason for this is to get a picture of the average behaviour of the forecasting methods not only in forecasting the last (couple of, controlled by 	n.to.test) values, but doing this operation on successively earlier	versions of the time series. E.g. if n.to.test was 1, ie we	try and forecast the last value of the series from the previous	n-1, if go.back=2 we also predict the penultimate value from the previous n-2, and the third-to-last value from the previous n-3, and return the average RMSE values over the three predictions. 
+
+Version 1.0
+===========
+* Upgraded by GPN to include more object-oriented software such as print.lpacf, summary.lpacf, plot.lpacf, print.forecast.lpacf,	summary.forecast.lpacf, plot.forecast.lpacf
+* Modified forecast.lpacf to additionally return the time series and updated help page. Made some small improvements to forecast.lpacf help.
+* Added which.wavelet.best to assist with finding a good wavelet for forecasting.
+* Added forecast.test to compare locally stationary forecasting with Box-Jenkins forecasting and graphically demonstrate results. 
+
+Version 0.1
+===========
+* Original, mostly written and constructed by Rebecca Killick
+
+Rebecca Killick and Guy Nason
+
