@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab lpacf\cr
 Type: \tab Package\cr
-Version: \tab 1.5\cr
-Date: \tab 2023-02-20\cr
+Version: \tab 1.0\cr
+Date: \tab 2023-03-07\cr
 License: \tab GPL-2\cr
 }
 The \code{\link{lpacf}} function computes the localized partial autocorrelation
@@ -25,7 +25,7 @@ Maintainer: Rebecca Killick <r.killick@lancs.ac.uk>
 Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) 
 The local partial autocorrelation function and some applications. 
 \emph{Electron. J. Statist.} \bold{14} (2), 3268-3314. 
-DOI: \href{https://doi.org/}{10.1214/20-EJS1748}.
+DOI: \href{https://www.doi.org/}{10.1214/20-EJS1748}.
 }
 \keyword{ package }
 \seealso{

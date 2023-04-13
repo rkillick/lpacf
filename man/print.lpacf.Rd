@@ -20,7 +20,7 @@
 \value{None
 }
 \references{
-Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) The local partial autocorrelation function and some applications. \emph{Electron. J. Statist.} \bold{14} (2), 3268-3314. DOI: \href{https://doi.org/}{10.1214/20-EJS1748}.
+Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) The local partial autocorrelation function and some applications. \emph{Electron. J. Statist.} \bold{14} (2), 3268-3314. DOI: \href{https://www.doi.org/}{10.1214/20-EJS1748}.
 }
 \author{
 Guy Nason

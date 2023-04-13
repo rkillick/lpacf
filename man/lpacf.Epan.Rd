@@ -105,7 +105,7 @@ Matrix of dimension n x \code{lag.max} containing the lpacf for each time point 
 	selected, and \code{FALSE} if it was not.}
 }
 \references{
-Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) The local partial autocorrelation function and some applications. \emph{Electron. J. Statist.} \bold{14} (2), 3268-3314. DOI: \href{https://doi.org/}{10.1214/20-EJS1748}. 
+Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) The local partial autocorrelation function and some applications. \emph{Electron. J. Statist.} \bold{14} (2), 3268-3314. DOI: \href{https://www.doi.org/}{10.1214/20-EJS1748}. 
 }
 \author{
 Guy Nason and Rebecca Killick
@@ -116,6 +116,7 @@ Guy Nason and Rebecca Killick
 \code{\link{plot.lacf}}, \code{\link{print.lpacf}}, \code{\link{summary.lpacf}}
 }
 \examples{
+\donttest{
 # first generate a time-varying process
 set.seed(1)
 x=tvar2sim()
@@ -160,6 +161,7 @@ ans<-lpacf.Epan(x,lag.max=10,filter.number=2,family="DaubExPhase")
 
 # then maybe plot it by lag
 lpacf.plot(ans,atLag=1:10,atTime=100)
+}
 }
 \keyword{ts}
 \keyword{wavelet}

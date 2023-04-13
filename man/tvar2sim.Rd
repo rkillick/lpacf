@@ -39,7 +39,7 @@ x <- tvar2sim()
 #
 # Maybe plot it
 #
-\dontrun{ts.plot(x)}
+\donttest{ts.plot(x)}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

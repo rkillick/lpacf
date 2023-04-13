@@ -4,6 +4,7 @@ importFrom(stats,qnorm,var,pacf,ts.plot,rnorm)
 import(locits)
 import(wavethresh)
 import(parallel)
+importFrom(methods,is)
 
 #exportPattern("^[[:alpha:]]+")
 export(AutoBestBW.Epan, lpacf.Epan, lpacf.plot, lpacf, tvar2sim)

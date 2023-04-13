@@ -1,15 +1,12 @@
 Package: lpacf
 Type: Package
-Title: Local Partial Autocorrelation and Forecasting Locally Stationary Wavelet Processes 
-Version: 1.5
-Date: 2022-02-20
-Authors@R: c(person("Rebecca", "Killick",role=c("aut","cre"),email="r.killick@lancs.ac.uk"),
-				person("Guy", "Nason", role="aut"),
-				person("Marina", "Knight", role="aut"),
-        person("Idris", "Eckley", role="ctb"),
-	person("Matt", "Nunes", role="aut"))
-Author: Rebecca Killick [aut], Guy Nason [aut], Marina Knight [aut], Matt Nunes [aut, cre], Idris Eckley [ctb]
+Title: Local Partial Autocorrelation Function Estimation for Locally Stationary Wavelet Processes 
+Version: 1.0
+Date: 2023-04-13
+Authors@R: c(person("Rebecca", "Killick",role=c("aut","cre"),email="r.killick@lancs.ac.uk"), person("Guy", "Nason", role="aut"),
+			person("Marina", "Knight", role="aut"), person("Matt", "Nunes", role="aut"), person("Idris", "Eckley", role="ctb"))
+Author: Rebecca Killick [aut, cre], Guy Nason [aut], Marina Knight [aut], Matt Nunes [aut], Idris Eckley [ctb]
 Maintainer: Rebecca Killick <r.killick@lancs.ac.uk>
-Description: Provides a method for computing the local partial autocorrelation function and forecasting locally stationary wavelet time series.
-Depends: R(>= 3.0), stats, locits, wavethresh, parallel
+Description: Provides the method for computing the local partial autocorrelation function for locally stationary wavelet time series from Killick, Knight, Nason, Eckley (2020) <doi:10.1214/20-EJS1748>.
+Depends: R(>= 3.0), stats, locits, wavethresh, parallel, methods
 License: GPL-2
