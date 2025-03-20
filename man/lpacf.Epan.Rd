@@ -73,11 +73,11 @@ codes to be used by your code to be less than the max to be nice to others.
 }
 \details{
 Calculates the local partial autocorrelation function (lpacf) for 1,...,\code{lag.max} lags.   See paper in the references for more details.
-NOTE: Often when local (windowed) estimates are created one assigns the estimated value to the central point in the window.  This is the approach we take here when calculating the lacv and lpacf.  This differs from the lpacf calculated for the \code{\link[forecastLSW]{forecast.lpacf}} function which assign the estimated value to the last point in the window.
+NOTE: Often when local (windowed) estimates are created one assigns the estimated value to the central point in the window.  This is the approach we take here when calculating the lacv and lpacf.  This differs from the lpacf calculated for the \code{\link[forecastLSW]{forecastlpacf}} function which assign the estimated value to the last point in the window.
 
 The function works by using the regular R \code{pacf} applied to carefully
 chosen windows of the original series. Note: code in the
-\code{forecast.lpacf} from the \code{forecastLSW} package can compute a slightly different version of the
+\code{forecastlpacf} from the \code{forecastLSW} package can compute a slightly different version of the
 localized pacf using a wavelet method.
 }
 \value{An object of class \code{lpacf}. This is a list with the following
@@ -112,7 +112,7 @@ Guy Nason and Rebecca Killick
 }
 
 \seealso{
-\code{\link{lpacf}}, \code{\link{lpacf.plot}}, \code{\link[forecastLSW]{forecast.lpacf}},
+\code{\link{lpacf}}, \code{\link{lpacf.plot}}, \code{\link[forecastLSW]{forecastlpacf}},
 \code{\link{plot.lacf}}, \code{\link{print.lpacf}}, \code{\link{summary.lpacf}}
 }
 \examples{

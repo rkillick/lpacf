@@ -1,3 +1,7 @@
+Version 1.0.1
+=============
+* Updated link in lpacf.Epan documentation following function name change in forecastLSW package
+
 Version 1.0
 ===========
 * Original, mostly written and constructed by Matt Nunes, Guy Nason and Rebecca Killick
