@@ -32,6 +32,7 @@ Guy Nason
 #
 # Simulate an example
 #
+set.seed(100)
 x.test <- tvar2sim()
 #
 # Compute the lpacf

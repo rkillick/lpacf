@@ -8,8 +8,8 @@
 \tabular{ll}{
 Package: \tab lpacf\cr
 Type: \tab Package\cr
-Version: \tab 1.0.1\cr
-Date: \tab 2023-05-12\cr
+Version: \tab 1.0.2\cr
+Date: \tab 2025-08-12\cr
 License: \tab GPL-2\cr
 }
 The \code{\link{lpacf}} function computes the localized partial autocorrelation

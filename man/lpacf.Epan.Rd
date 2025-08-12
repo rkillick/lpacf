@@ -113,7 +113,7 @@ Guy Nason and Rebecca Killick
 
 \seealso{
 \code{\link{lpacf}}, \code{\link{lpacf.plot}}, \code{\link[forecastLSW]{forecastlpacf}},
-\code{\link{plot.lacf}}, \code{\link{print.lpacf}}, \code{\link{summary.lpacf}}
+\code{\link[locits]{plot.lacf}}, \code{\link{print.lpacf}}, \code{\link{summary.lpacf}}
 }
 \examples{
 \donttest{

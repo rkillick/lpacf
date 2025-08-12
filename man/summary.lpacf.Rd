@@ -33,12 +33,28 @@ Killick, R., Knight, M. I., Nason, G.P. and Eckley, I. A. (2020) The local parti
 Guy Nason
 }
 
-\seealso{\code{\link{lpacf}}, \code{\link{print.lacf}}
+\seealso{\code{\link{lpacf}}, \code{\link{print.lpacf}}
 }
 \examples{
 #
-# See example for print.lacf
+# Simulate an example
 #
+set.seed(100)
+x.test <- tvar2sim()
+#
+# Compute the lpacf
+#
+x.lpacf <- lpacf(x.test)
+#
+# Print it out - note, can normally just type name of object
+#
+summary(x.lpacf)
+#Number of times:  220 
+#Number of lags:  27 
+#Range of times from:  147  to  366 
+#Part series was analyzed (alltimes=FALSE)
+#Smoothing binwidth used was:  293 
+#        Binwidth was chosen automatically
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
