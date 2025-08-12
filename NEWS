@@ -1,3 +1,7 @@
+Version 1.0.2:
+=============
+* Added targets to Rd links to meet updated CRAN guidelines
+
 Version 1.0.1
 =============
 * Updated link in lpacf.Epan documentation following function name change in forecastLSW package
